@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">pairProgramming</string>
+    <string name="splashScreenText">Game Library App</string>
+    <string name="TitleTxt">placeholder</string>
+    <string name="GameTxt">placeholder</string>
+    <string name="GameTwoTxt">placeholder</string>
+    <string name="GameThreeTxt">placeholder</string>
+    <string name="GameFourTxt">placeholder</string>
+    <string name="GameFiveTxt">placeholder</string>
+    <string name="NextTxt">placeholder</string>
+</resources>
