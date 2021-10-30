@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pair Programming Project</string>
+    <string name="TitleTxt">Page One</string>
+    <string name="GameTxt"><a href="https://playvalorant.com/en-us/">Valorant</a></string>
+    <string name="GameTwoTxt"><a href="https://www.minecraft.net/en-us">Minecraft</a></string>
+    <string name="GameThreeTxt"><a href ="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/">Rainbow Six Siege</a></string>
+    <string name="GameFourTxt"><a href ="https://store.steampowered.com/app/945360/Among_Us/">Among Us</a></string>
+    <string name="GameFiveTxt"><a href ="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">Counter-Strike: Global Offensive</a></string>
+    <string name="NextTxt">Next Page</string>
+    <string name="TitleTwoTxt">Page Two</string>
+    <string name="FortniteTxt"><a href ="https://www.epicgames.com/fortnite/en-US/home">Fortnite</a></string>
+    <string name="GmodTxt"><a href="https://store.steampowered.com/app/4000/Garrys_Mod/">Garry\'s Mod</a></string>
+    <string name="SwtorTxt"><a href="https://store.steampowered.com/app/1286830/STAR_WARS_The_Old_Republic/">Star Wars: The Old Republic</a></string>
+    <string name="NBATxt"><a href="https://store.steampowered.com/app/1644960/NBA_2K22/">NBA 2K22</a></string>
+    <string name="FakeGameTxt">Half Life 3</string>
+    <string name="PageOneTxt">Page One</string>
+    <string name="PageThreeTxt">Page Three</string>
+</resources>

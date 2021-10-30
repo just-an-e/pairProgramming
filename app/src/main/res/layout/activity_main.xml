@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Title"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:fontFamily="monospace"
@@ -16,46 +16,46 @@
         android:textAlignment="center"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/Valorant"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Valorant"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/GameTxt"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/Minecraft"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/Minecraft"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/GameTwoTxt"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/Rainbow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/Valorant" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/Rainbow"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/GameThreeTxt"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/AmongUs"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/Minecraft" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/AmongUs"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="78dp"
@@ -64,17 +64,17 @@
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/Rainbow" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/CSGO"
         android:layout_width="0dp"
         android:layout_height="79dp"
         android:text="@string/GameFiveTxt"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/AmongUs" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -83,13 +83,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5">
+        app:layout_constraintTop_toBottomOf="@+id/AmongUs">
 
         <Button
             android:id="@+id/button3"
             android:layout_width="162dp"
-            android:layout_height="84dp"
+            android:layout_height="match_parent"
             android:layout_gravity="right"
+            android:onClick="nextClick"
             android:text="@string/NextTxt"
             android:textSize="20sp" />
 
