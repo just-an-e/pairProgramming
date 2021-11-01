@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark"
+    tools:context=".PageTwoActivity">
+
+    <TextView
+        android:id="@+id/PageTwoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="@string/TitleTwoTxt"
+        android:textAlignment="center"
+        android:textColor="#AA9F9F"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/Fortnite"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="@string/FortniteTxt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Gmod"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="@string/GmodTxt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/SWTOR"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="@string/SwtorTxt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/NBA"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="@string/NBATxt"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/HalfLife"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="@string/FakeGameTxt"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#009688"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="84dp">
+
+        <Button
+            android:id="@+id/FirstPage"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:onClick="lastClick"
+            android:text="@string/PageOneTxt"
+            android:textColor="#AA9F9F"
+            android:translationY="-10dp" />
+
+        <Button
+            android:id="@+id/LastPage"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="@string/PageThreeTxt"
+            android:textColor="#AA9F9F"
+            android:translationX="295dp"
+            android:translationY="-80dp"
+            android:onClick="finalClick"/>
+    </RadioGroup>
+
+</LinearLayout>
